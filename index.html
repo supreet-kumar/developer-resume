@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supreet Developer Portfolio</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation bar -->
+      <nav>
+        <div class="logo">Supreet Kumar.</div>
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#education">Education</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+        </ul>
+        <div class="visible-on-mobile">
+          <a href="#contact" class="primary-cta">Contact</a>
+          <a class="hamburger"><span class="material-icons">menu</span></a>
+        </div>
+      </nav>
+
+      <!-- Hero section -->
+      <section id="hero">
+        <h1 class="hero-title">
+          Hi, I'm Supreet. A Front End Developer looking to join an awesome
+          company to build amazing things.
+        </h1>
+        <div class="cta-container">
+          <a href="#projects" class="primary-cta">My projects</a>
+          <!-- TODO -->
+          <a href="./files/Supreet Developer Resume.pdf" class="secondary-cta" download>Download CV</a>
+        </div>
+        <div class="testimonials-container">
+          <div class="quote">
+            "He successfully completed the tenure with excellent performance."
+          </div>
+          <div class="source">
+            Mailmodo (7 months), not as a developer tho (content writer)
+          </div>
+        </div>
+      </section>
+    </header>
+    
+    <main>
+      <!-- Projects section -->
+      <article id="projects">
+        <h2 class="projects-title">My projects</h2>
+        <div class="projects-grid">
+          <div class="project">
+            <img
+              src="./images/countdown_timer.png"
+              alt="Countdown Timer Project Thumbnail"
+              class="project-image"
+            />
+            <div class="project-details">
+              <div class="project-name">Countdown Timer</div>
+              <a
+                href="https://hilarious-profiterole-41061b.netlify.app"
+                class="project-link"
+                target="_blank"
+                >See live →</a
+              >
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Education section -->
+      <article id="education">
+        <h2 class="education-title">Education</h2>
+        <div class="labels">
+          <div class="course-label">Course</div>
+          <div class="author-label">Author</div>
+        </div>
+        <div class="course-detail">
+          <div class="course-name">The Ultimate HTML5 & CSS3 Series: Part 1</div>
+          <div class="course-author">Mosh Hamedani</div>
+        </div>
+        <div class="course-detail">
+          <div class="course-name">The Ultimate HTML5 & CSS3 Series: Part 2</div>
+          <div class="course-author">Mosh Hamedani</div>
+        </div>
+        <div class="course-detail">
+          <div class="course-name">Ultimate JavaScript Part 1: Fundamentals</div>
+          <div class="course-author">Mosh Hamedani</div>
+        </div>
+      </article>
+
+      <!-- Skills section -->
+      <article id="skills">
+        <h2 class="skills-title">Skills</h2>
+        <div class="skill">
+          <div class="skill-label">HTML5</div>
+          <div class="skill-bar">
+            <div class="colorful html">
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-label">CSS3</div>
+          <div class="skill-bar">
+            <div class="colorful css">
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-label">JavaScript</div>
+          <div class="skill-bar">
+            <div class="colorful js">
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Contact section -->
+      <section id="contact">
+        <h2 class="contact-title">Contact</h2>
+        <a href="mailto:supreetkumar555@gmail.com" class="email" target="_blank">supreetkumar555@gmail.com</a>
+        <a href="tel:+918088767165" class="phone" target="_blank">+91 8088767165</a>
+        <a href="https://wa.link/1suqu3" class="whatsapp" target="_blank">Whatsapp: +91 9380434812</a>
+      </section>
+    </main>
+  </body>
+</html>
